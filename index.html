@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://acimg.auctivacommerce.com/imgdata/0/2/0/4/2/7/webimg/7171592.jpg" type="image/x-icon">
+    <title>Harry Potter Name Generator</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+    </style>
+
+</head>
+<body>
+  
+  <script src="script.js"></script>
+
+    <nav>
+      <p class="hpcopy">&#169 Aryav Gulla 2021</p>
+      <p class="hphead">Harry Potter Name Generator</p>
+    </nav>
+    
+  <section>
+    <div class="homebtn">
+      <h4>The magic begins...</h4>
+      <a href="#hpbg" class="btn">Let's Play</a>
+      <a href="https://www.bloomsbury.com/uk/discover/harry-potter/" target="_blank" class="btn2">Explore more</a>
+    </div>
+  </section>
+    
+
+    <img class="homebg" src="homebg.jpg" alt="error">
+      
+    <div class="container">
+      <p id='gametext'>Hey Potterfans, Ready for the game?</p>
+      
+      <button id="generate" onclick="getrandomname('random-name2',false)">Generate Now (For Girls)</button>
+      <button id="generate2" onclick="getrandomname('random-name',true)">Generate Now (For Boys)</button>
+      <div id="random-name"><div class="center"></div></div>
+      <div id="random-name2"></div>
+      <img class="harry" src="harryp.jpg" alt="">
+      
+    </div>
+    <img id="hpbg" src="bg2.png" alt="">
+
+    
+
+</body>
+</html>
